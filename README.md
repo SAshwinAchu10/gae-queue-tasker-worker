@@ -14,11 +14,11 @@ $ `gcloud config set project <project-id>`
 
 ###### Goto Google cloud console and navigate to API & Services -> Credentials -> Create Credentials -> Service Account 
 
-Download the service account json and copy paste the json content inside path `insabot/worker/serviceaccount.json`
+Download the service account json and copy paste the json content inside path `worker/serviceaccount.json`
 
 ### To run locally
 
-$ `cd instabot`
+$ `cd worker`
 
 $ `pipenv shell`
 
